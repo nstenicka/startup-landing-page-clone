@@ -1,4 +1,7 @@
 body {background-color: lightgray}
 div {border: 1px solid chocolate;}
 /* Navigation Section */
-.top-navigation {background-color: #fff; } .top-navigation > .content {width: 970 px; height: 70 px; margin: 0 auto; }
+.top-navigation {background-color: #fff; } .top-navigation > .content {width: 970 px; height: 70 px; margin: 0 auto; } 
+.top-navigation<ul class="links" style="
+    float: right;
+.top-navigation <ul class="links" style="float:right"
