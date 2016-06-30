@@ -27,6 +27,9 @@ head{
 /* Navigation Section */
 .top-navigation{
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation> .content {
 	height:4.375rem;
@@ -115,3 +118,26 @@ button:hover {
   text-align: center;
   margin-top: 1.563rem;
   }
+.cases h2{
+  	text-align: center;
+	color:black;
+	font-weight: 300;
+	font-size: 2.6rem;
+  }
+.content .devices {
+	width: 20%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+.content {
+	color: #1d1e21;
+	text-align: center;
+	font: inherit;
+}
+.cases h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
