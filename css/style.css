@@ -1,6 +1,117 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body{
-	background-color: brown;
+	background-color: lightgray;
+	font-family: 'Roboto', sans-serif;
+}
+.content {
+	padding: 0.938rem;
+	margin:0 auto;
+	min-width: 37.5rem;
 }
 div{
 	border:1px solid chocolate;
+	margin: 0 auto;
 }
+head{
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color:#838994;
+	letter-spacing: 0.03em;
+}
+/* Navigation Section */
+.top-navigation{
+	background-color: #fff;
+}
+.top-navigation> .content {
+	height:4.375rem;
+	padding: 0px 15px;
+}
+/*
+	we removed the style from the html
+	and inserted it here. This way we separate
+	structure from presentation, while keeping
+	everything in place
+*/
+.logo {
+    width: 26px;
+    margin-left: 14px;
+    height: 70px;
+}
+
+.top-navigation> .logo {
+    	height:4.375rem;
+}
+
+.top-navigation .links {
+	float:right;
+	margin-top: 1.7rem
+	}
+.top-navigation .links li{
+	display:inline-block;
+	margin-left: 1.56rem
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 600;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #000000;
+}
+/**
+*Introduction Section
+*/
+.introduction {
+	/* we fix the image path. and we have eddited the image name to avoid spaces. it's simpler to do that*/
+    background-image: url('../images/first-background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    background-attachment: fixed center;
+}
+.introduction h1,
+.introduction h3{
+	text-align: center;
+	color:white;
+	font-weight: 300;
+	overflow: auto;
+}
+.introduction h1{
+	margin-top:17rem;
+	font-size: 3rem;
+}
+.introduction h3{
+	font-size: 1.5rem;
+}
+/**
+ * The buttons
+ */
+button{
+	text-shadow:none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	width: 9rem;
+	background-color: #f15a29;
+	color:white;
+	font-size: 1rem;
+	display:block;
+	margin: 0 auto;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+.introduction .buttons {
+  color: white;
+  text-align: center;
+  margin-top: 1.563rem;
+  }
