@@ -161,6 +161,9 @@ button:hover {
 	text-align: center;
 	margin: 0 auto;
 }
+.icons hover {
+	cursor: pointer;
+}
 .social .twitter{
 	color: #5DC2E5;
 }
