@@ -14,7 +14,10 @@ body{
 	margin:0 auto;
 	min-width: 37.5rem;
 }
-div{
+li {
+	list-style: none;
+}
+nav{
 	margin: 0 auto;
 }
 head{
@@ -26,7 +29,6 @@ head{
 /* Navigation Section */
 .top-navigation{
 	background-color: #fff;
-	position: fixed;
 	width: 100%;
 	z-index: 9999;
 }
@@ -44,6 +46,7 @@ head{
     width: 26px;
     margin-left: 14px;
     height: 70px;
+    margin-right:200px;
 }
 
 .top-navigation> .logo {
@@ -164,16 +167,16 @@ button:hover {
 .icons hover {
 	cursor: pointer;
 }
-.social .twitter{
-	color: #5DC2E5;
+.fa-twitter{
+	color: #f15a29;
 }
 
-.social .facebook {
-	color: #4c66a4;
+.fa-facebook {
+	color: #f15a29;
 }
 
-.social .instagram {
-	color: #3f729b;
+.fa-instagram {
+	color: #f15a29;
 }
 .social hr {
 	border-top: 1px solid #eaebec;
